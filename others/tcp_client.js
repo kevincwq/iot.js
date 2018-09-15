@@ -9,4 +9,4 @@ client.on('data', function (data) {
 });
 client.on('end', function () {
     console.log('disconnected from server');
-})
+});
