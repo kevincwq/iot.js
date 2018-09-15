@@ -8,6 +8,6 @@ client.on('connect', function () {
 
 client.on('message', function (topic, message) {
     // message is buffer
-    console.log(message.toString());
+    console.log(`Message: ${message.toString()} from ${topic}`);
     client.end();
 });
