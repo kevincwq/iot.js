@@ -5,7 +5,14 @@ The code snippets of node.js for IoT
 - microtime
 - ffi: node-ffi is used to call C/C++ functions
 - coap: CoAP protocol support
-- nodemon: 
+- nodemon: monitor and reload modules
+- node-zookeeper-client: register and discovery service
+- IoT.js from Samsung
+- Espruino
+- kafka-node: Producer and consumer for Kafka
+- kafka-rest: Kafka RESTful client
+- EclairJS, Nashorn: Spark JS support
+
 
 ## Debug Tools
 ``` bash
