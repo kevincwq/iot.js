@@ -12,7 +12,8 @@ The code snippets of node.js for IoT
 - kafka-node: Producer and consumer for Kafka
 - kafka-rest: Kafka RESTful client
 - EclairJS, Nashorn: Spark JS support
-
+- elasticsearch: Elastic Search client
+- 
 
 ## Debug Tools
 ``` bash
