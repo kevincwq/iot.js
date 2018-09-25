@@ -1,7 +1,9 @@
 # iot.js
+
 The code snippets of node.js for IoT
 
 ## Useful NPM packages
+
 - microtime
 - ffi: node-ffi is used to call C/C++ functions
 - coap: CoAP protocol support
@@ -16,6 +18,7 @@ The code snippets of node.js for IoT
 - 
 
 ## Debug Tools
+
 ``` bash
 # profile application
 node --prof app.js
