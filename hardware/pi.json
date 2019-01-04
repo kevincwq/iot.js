@@ -1,0 +1,7 @@
+{
+    "deviceName": "pi-wq",
+    "adminPass": "8989",
+    "debugPin": "8989",
+    "wifi": "V+SPACE",
+    "host":"http://172.16.0.114:8080"
+}

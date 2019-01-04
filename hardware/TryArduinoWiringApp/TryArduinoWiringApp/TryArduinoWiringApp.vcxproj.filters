@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Package Dependencies">
+      <UniqueIdentifier>9013637e-5d3a-4ae5-a307-6c9f52ecf810</UniqueIdentifier>
+      <Extensions>pfx;appxmanifest;config</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Assets">
+      <UniqueIdentifier>44b079b0-2663-4c6a-901c-b6b9b4eb231a</UniqueIdentifier>
+      <Extensions>png</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Include">
+      <UniqueIdentifier>52c4197c-4a10-4bdf-b63a-a2dddac21466</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StartupTask.cpp">
+      <Filter>Package Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="TryArduinoWiringApp.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PinNumbers.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Package Dependencies</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Package Dependencies</Filter>
+    </None>
+    <None Include="TryArduinoWiringApp_TemporaryKey.pfx">
+      <Filter>Package Dependencies</Filter>
+    </None>
+  </ItemGroup>
+</Project>
